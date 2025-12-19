@@ -3,26 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.banner {
+.banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgb(21, 26, 41), rgba(53, 54, 56, 0.479)), url(https://i.pinimg.com/originals/2e/84/d0/2e84d024808a80cf83e50d33467dc918.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.596)), url(https://cdn.bmwblog.com/wp-content/uploads/2021/12/BMW-M4-Competition-xDrive-Test-Drive-2-of-31.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
-.navbar {
+.navbar{
     width: 85%;
-    display: contents;
+    display: flex;
     position: relative;
     padding: 36px 0px;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    margin-left: 1000%;
 }
+
 
 .logo {
     width: 200px;
@@ -80,9 +78,9 @@ li a {
 
 #btn:hover {
 
-    border-color: aqua;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
+    border-color: rgb(80, 90, 90);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
     transform: scale(1.2);
     transform: all .5s;
 }
@@ -93,7 +91,7 @@ li:hover {
     }
 
     li a:hover {
-        color: aqua;
+        color: rgb(0, 162, 255);
     }
 
     /*<======================================================================> */
@@ -101,7 +99,7 @@ li:hover {
     .card-section {
         width: 100%;
         height: 100vh;
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0,0, 0.5)), url(https://static1.topspeedimages.com/wordpress/wp-content/uploads/2023/01/bmw-m4-competition-cover.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://static1.topspeedimages.com/wordpress/wp-content/uploads/2023/01/bmw-m4-competition-cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -130,6 +128,7 @@ li:hover {
     pad: 10px 24px;
     text-align: center;
     line-height: 2;
+    display: none;
 }
 .card-buttons{
     width: 100%;
@@ -143,7 +142,7 @@ li:hover {
     width: 150px;
     padding: 10px 10px;
     background-color: transparent;
-    border: 2px solid red;
+    border: 2px solid rgb(0, 255, 213);
     border-radius: 25px;
     color: #fff;
 }
@@ -167,6 +166,9 @@ li:hover {
     color: #fff;
     transition: all .9s;    
     display:inline;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .card:hover  h1{
@@ -177,7 +179,7 @@ li:hover {
 }
 
 .card:hover .card-buttons button {
-    border: 2px solid rgb(0, 255, 0);  
+    border: 2px solid rgb(255, 166, 0);  
     transform: scale(1.02);    
     transition: all 0.5s;   
 }
@@ -213,7 +215,7 @@ li:hover {
     width: 400px;
     height: 500px;
     border: 1px solid rgb(0, 0, 0);
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://i.pinimg.com/videos/thumbnails/originals/b0/bf/bb/b0bfbb256d0098dc77246ef92866166f.0000000.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://avatars.mds.yandex.net/i?id=82fa4d49fda931712f0984d5c06dae56_l-2366455-images-thumbs&ref=rim&n=13&w=640&h=640);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -229,6 +231,7 @@ li:hover {
     pad: 10px 24px;
     text-align: center;
     line-height: 2;
+    display: none;
 }
 .card2-buttons{
     width: 100%;
@@ -242,7 +245,7 @@ li:hover {
     width: 150px;
     padding: 10px 10px;
     background-color: transparent;
-    border: 2px solid red;
+    border: 2px solid rgb(0, 255, 213);
     border-radius: 25px;
     color: #fff;
 }
@@ -255,7 +258,7 @@ li:hover {
 .card2:hover{
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/736x/6c/fc/e8/6cfce84f07fad1b22a9a26af4a8b23f8.jpg);
+      rgba(0, 0, 0, 0.5)), url(https://avatars.mds.yandex.net/i?id=1deffba2e6901b72a9288be5ceb94579_l-8497316-images-thumbs&ref=rim&n=13&w=1080&h=1346);
   background-size: cover;
   background-position: center;
       transition: all .9s;
@@ -276,7 +279,7 @@ li:hover {
 }
 
 .card2:hover .card2-buttons button {
-    border: 2px solid   rgb(0, 255, 0);  
+    border: 2px solid   rgb(255, 145, 0);  
     transform: scale(1.02);    
     transition: all 0.5s;   
 }
@@ -290,7 +293,7 @@ li:hover {
     width: 400px;
     height: 500px;
     border: 1px solid rgb(0, 0, 0);
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://i.pinimg.com/originals/16/07/fb/1607fb18592f2758de6b9536491b537b.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://s0.smartresize.com/wallpaper/785/802/HD-wallpaper-bmw-m4-ayarsizgarage-f30-f80-f82-f90-karm4-m2-m3-m4-m5-thumbnail.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -306,6 +309,7 @@ li:hover {
     pad: 10px 24px;
     text-align: center;
     line-height: 2;
+    display: none;
 }
 .card3-buttons{
     width: 100%;
@@ -319,7 +323,7 @@ li:hover {
     width: 150px;
     padding: 10px 10px;
     background-color: transparent;
-    border: 2px solid red;
+    border: 2px solid rgb(0, 255, 213);
     border-radius: 25px;
     color: #fff;
 }
@@ -332,7 +336,7 @@ li:hover {
 .card3:hover{
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/videos/thumbnails/originals/78/35/28/783528e5a33e19f4a8d8fc496ff11519.0000000.jpg);
+      rgba(0, 0, 0, 0.5)), url(https://s0.smartresize.com/wallpaper/399/986/HD-wallpaper-bmw-m4-ayarsizgarage-f30-f80-f82-f90-lucastrofob-m2-m3-m4-m5.jpg);
   background-size: cover;
   background-position: center;
       transition: all .9s;
@@ -353,7 +357,7 @@ li:hover {
 }
 
 .card3:hover .card3-buttons button {
-    border: 2px solid rgb(0, 255, 0);  
+    border: 2px solid rgb(255, 166, 0);  
     transform: scale(1.02);    
     transition: all 0.5s;   
 }
@@ -367,7 +371,7 @@ li:hover {
     width: 400px;
     height: 500px;
     border: 1px solid rgb(0, 0, 0);
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://i.pinimg.com/originals/c2/71/e1/c271e106e7ae2fc5d9a9e1fc75fcc303.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://i.pinimg.com/videos/thumbnails/originals/b0/bf/bb/b0bfbb256d0098dc77246ef92866166f.0000000.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -383,6 +387,7 @@ li:hover {
     pad: 10px 24px;
     text-align: center;
     line-height: 2;
+    display: none;
 }
 .card4-buttons{
     width: 100%;
@@ -396,7 +401,7 @@ li:hover {
     width: 150px;
     padding: 10px 10px;
     background-color: transparent;
-    border: 2px solid red;
+    border: 2px solid rgb(0, 255, 213);
     border-radius: 25px;
     color: #fff;
 }
@@ -409,7 +414,7 @@ li:hover {
 .card4:hover{
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/736x/d6/d6/01/d6d601ea78196c668f988cf9e952d307.jpg);
+      rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/736x/6c/fc/e8/6cfce84f07fad1b22a9a26af4a8b23f8.jpg);
   background-size: cover;
   background-position: center;
       transition: all .9s;
@@ -430,7 +435,7 @@ li:hover {
 }
 
 .card4:hover .card4-buttons button {
-    border: 2px solid rgb(0, 255, 0);  
+    border: 2px solid rgb(255, 145, 0);  
     transform: scale(1.02);    
     transition: all 0.5s;   
 }
